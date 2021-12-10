@@ -15,4 +15,9 @@ addtobag(mybag, newloot)
 
 '''
 def addtobag(bag, itemstoadd):
-  pass #delete this line when you start writing your code
+  for i in itemstoadd:
+    if i in bag:
+      bag[i] += 1
+    else:
+      bag.setdefault(i, 1)
+  return bag

@@ -13,6 +13,6 @@ elif program == '2':
   print(exponents(exponent))
 
 elif program == '3':
-  currentbag = {'Potion': 3, 'Revive': 5, 'Dawn Stone': 2, 'Fossilized Drake': 2} #you can change this dictionary to be sure the function works properly
-  championsloot = ['Max Revive', 'Max Revive', 'Hyper Potion', 'Revive', 'Fossilized Drake'] #you can change this list to be sure the function works properly
+  currentbag = {'Potion': 3, 'Revive': 5, 'Dawn Stone': 2, 'Fossilized Drake': 2} 
+  championsloot = ['Max Revive', 'Max Revive', 'Hyper Potion', 'Revive', 'Fossilized Drake']
   print(addtobag(currentbag, championsloot))

@@ -13,4 +13,8 @@ exponents(3)
 '''
 
 def exponents(exp): #do not change this line
-  pass #delete this line when you start writing your code
+  powers = {}
+  for i in range(2, 12):
+    powers.setdefault(i, 0)
+    powers[i] += i**exp
+  return powers 
